@@ -9,6 +9,9 @@
 	<context:component-scan base-package="pers.wsf.study" />
 	<aop:aspectj-autoproxy proxy-target-class="true" />
 	
+	
+	
+	
 	<context:annotation-config />
 	
 	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
